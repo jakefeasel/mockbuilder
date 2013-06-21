@@ -1,9 +1,17 @@
 {
   "name": "MockBuilder",
   "version": "0.0.1",
+  "author": "Jake Feasel <jfeasel@gmail.com>",
+  "description": "A tool to transform HAR files into JavaScript Mocks",
+  "license": "MIT",
   "devDependencies": {
     "requirejs": "2.0.6",
     "handlebars": "1.0.12",
-    "lodash": "1.3.1"
+    "lodash": "1.3.1",
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.4.4"
+  },
+  "engines": {
+    "node": ">=0.8.14"
   }
 }
