@@ -6,7 +6,7 @@ define(function () {
             "{{method}}",   
             "{{url}}",{{/request}}
             [{{#response}}
-                "{{status}}", 
+                {{status}}, 
                 { {{#each headers}}
                     "{{name}}": "{{value}}"{{^last}},{{/last}}{{/each}}
                 },
