@@ -4,7 +4,7 @@ define(function () {
 {{#each log.entries}}    
         server.respondWith({{#request}}
             "{{method}}",   
-            "{{url}}",{{/request}}
+            "{{{url}}}",{{/request}}
             [{{#response}}
                 {{status}}, 
                 { {{#each headers}}
