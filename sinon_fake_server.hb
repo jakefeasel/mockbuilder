@@ -1,3 +1,4 @@
+/*global require, define*/
 define(function () {
 
     return function (server) {
@@ -14,6 +15,6 @@ define(function () {
             {{/response}}]
         );
 {{/each}}
-    }
+    };
 
-})
+});
